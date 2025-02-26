@@ -1,0 +1,134 @@
+
+@media (max-width: 576px) { 
+    #nav {
+
+        .navbar-nav {
+
+            .navbar-brand {
+                a {
+                    font-size: 1.125rem;
+                    font-weight: 800;
+                    line-height: 1.625rem;
+                }
+            }
+            .nav-link {
+                &::after {
+                    display: none;
+                }
+              
+                &.active::after {
+                    display: block;
+                    width: 10%;
+                    left: 45%;
+                    
+                }
+
+            }
+        }
+        
+    }
+    #Header{
+        .head-text{
+
+            #typed-output{
+
+                .typing ,h1{
+                   
+                    font-size: 2.75rem;
+            
+                }
+            }  
+        }   
+        
+    }
+    
+
+
+    
+ }
+
+
+@media screen and (min-width: 576px) and  (max-width: 768px) { 
+    #nav {
+
+        .navbar-nav {
+
+            .navbar-brand {
+                a {
+                    font-size: 1.125rem;
+                    font-weight: 800;
+                    line-height: 1.625rem;
+                }
+            }
+            .nav-link {
+                &::after {
+                    display: none;
+                }
+              
+                &.active::after {
+                    display: block;
+                    width: 10%;
+                    left: 45%;
+                }
+
+            }
+        }
+        
+    }
+   
+
+    #Header{
+        .head-text{
+
+            #typed-output{
+
+                .typing ,h1{
+                   
+                    font-size: 2.75rem;
+            
+                }
+            }  
+        }   
+        
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #nav {
+
+        .navbar-nav {
+
+            .navbar-brand {
+                a {
+                    font-size: 1.125rem;
+                    font-weight: 800;
+                    line-height: 1.625rem;
+                }
+            }
+            .nav-link {
+                &::after {
+                    display: none;
+                }
+              
+                &.active::after {
+                    display: block;
+                    width: 10%;
+                    left: 45%;
+                }
+
+            }
+        }
+        
+    }
+   
+ }
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 1400px) {}
